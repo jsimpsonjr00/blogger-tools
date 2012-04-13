@@ -1,34 +1,3 @@
-<style type='text/css'>
-	.random-post{
-		font-size: 12px;
-	 	margin: 0px 5px;
-	 	padding-top: 5px;
-	 	cursor: pointer;
-	}
-	.random-post:hover {
-		background-color: #e2e2e2;
-	  	color: #777777;
-	}
-	.random-post h4{
-		font-weight: normal;
-	 	font-size: 11px;
-	 	padding: 0px 0px;
-	}
-	.random-post-thumb img {
-		max-height: 50px;
-	 	max-width: 50px;
-	 	height: auto;
-	}
-	.random-post-thumb {
-		margin: 0px 5px;
-	 	overflow: hidden;
-	 	float: left;
-	}
-	.clear {
-		clear: both;
-	}
-</style>
-<script>
 (function ( $ ) {
 	//Simple Template substitutions
 	$.tmplSubstitute = function( template, map ){
@@ -195,5 +164,3 @@
 		});
 	});
 }( jQuery ));
-</script>
-<div id='random-posts'></div>
