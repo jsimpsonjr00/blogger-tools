@@ -153,14 +153,4 @@
 			$post.appendTo( $this );
 		};
 	}
-	
-	$(document).ready( function () {
-		$("#random-posts").bloggerRandomPosts( {
-			blogStarted: {
-				year: 	"2011",
-				month: 	"1",
-				day:	"1"
-			}
-		});
-	});
 }( jQuery ));
